@@ -15,6 +15,7 @@ public class Sort{
     }
     public static void main(String[] args) {
         int [] mas = {11, 3, 34, 8, 9};
+        getResult(mas);
         System.out.println(Arrays.toString(mas));
     }
 }
