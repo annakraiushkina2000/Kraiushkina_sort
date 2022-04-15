@@ -1,9 +1,8 @@
 import java.util.Arrays;
 
 public class Sort{
-    public static void main(String[] args) {
-        int [] mas = {11, 3, 34, 8, 9};
-        boolean isSorted = false;
+    public static int[] getResult(int array []){
+    boolean isSorted = false;
         int buf;
         while (!isSorted) {
             isSorted = true;
@@ -16,6 +15,10 @@ public class Sort{
                 }
             }
         }
+        return array;
+    }
+    public static void main(String[] args) {
+        int [] mas = {11, 3, 34, 8, 9};
         System.out.println(Arrays.toString(mas));
     }
 }
